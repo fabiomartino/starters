@@ -7,7 +7,7 @@
     "eslint": "eslint . --ext .ts",
     "src:build": "tsc",
     "src:watch": "tsc -w",
-    "starters:build": "node ./bin/ionic-starters build",
+    "starters:build": "node ./bin/ionic-starters build --current",
     "starters:deploy": "node ./bin/ionic-starters deploy",
     "starters:find-redundant": "node ./bin/ionic-starters find-redundant",
     "starters:generate-checksum": "node ./bin/ionic-starters generate-checksum",
